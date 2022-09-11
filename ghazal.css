@@ -1,0 +1,354 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+
+.cosmatics,
+.teammate {
+    border: 2px solid white;
+}
+
+
+.description {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    padding: 15px 15px;
+}
+section.mission,
+section.products,section.team,
+section.contacts {
+    max-width: 800px;
+    margin: 200px auto;
+    padding: 50px 20px;
+}
+
+
+nav,
+footer,
+header {
+    background-color:#0B0D17;
+}
+
+nav {
+    height: 80px;
+    position: fixed;    
+    width: 100%;
+    color: #FBFBFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #282B37; 
+}
+
+
+img.logo {
+    height: 50px;
+    margin: 10px 0;
+    margin-left: 30px;
+}
+
+nav .links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color :#ec2768;
+    cursor: pointer;
+}
+
+a:visited{
+    color: white;
+}
+nav button {
+    background-color: #ec2768;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+nav button:hover{
+    cursor: pointer;
+}
+nav button:active{
+background-color:black;
+color: #ec2768;
+}
+
+.burgermenu {
+    margin: auto;
+    margin-left: 10px;
+    display: none;    
+}
+
+.burgermenu img {
+    height: 30px;
+    width: 40px;
+    padding: 10px 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .links a {
+        display: none;
+    }
+
+    nav .burgermenu {
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+
+    }
+
+    nav button {
+        display: none;
+    }
+
+}
+
+header {
+    background-color: #0B0D17;
+    min-height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    text-align: center;
+}
+
+header h1 {
+    max-width: 800px;
+    margin: 60px;
+    text-align: center;
+
+}
+
+.Makeup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cosmatics {    
+    width: 200px;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+#RedLipstick{
+    background-image: url("60540.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-grow: 1;
+}
+
+#MouistrisingCream {
+    background-image: url("6054.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-grow: 1;
+}
+
+#SuperBlackMascara {
+    background-image: url("60542.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-grow: 4;
+}
+
+#NutritiousNailPolish {
+    background-image: url("60543.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-grow: 5;
+}
+
+
+#ColorfulEyeshadows {
+    background-image: url("60544.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-grow: 1;
+}
+
+
+
+
+
+.teammates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teammate {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+
+
+#LFischer {
+    background-image: url("OF166L0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#ALasker {
+    background-image: url("OF166L1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+section.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+/*.contacts img {
+    width: 280px;
+    height: auto;
+    flex-grow: 2;
+}*/
+
+.contacts .content {
+    width: 280px;
+    padding-right: 40px;
+    margin: 20px 0;
+    flex-grow: 1;
+}
+
+
+footer {          
+    padding: 5px 30px;
+    border-top: 2px solid #282B37;
+}
+
+footer p,
+footer a {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #797A7F; 
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color:white;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
